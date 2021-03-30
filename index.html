@@ -2,83 +2,146 @@
 <html lang="it">
 
 <head>
+ <meta charset="utf-8">
+
+ <meta name="author" content="Chiara Musio">
+
  <title>muxchi</title>
- <link rel="icon" href="img/piantina.png" type="image/png">
+
+ <link rel="icon" href="img/piantina_logo.png" type="image/png">
 
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
 
  <style type="text/css">
   body
   {
    background-color: #DDECCB;
    font-family: 'Work Sans', sans-serif;
-  }
-
-  p
-  {
-   color: #4a7c56;
-   text-align: center;
-   text-transform: uppercase;
    font-weight: 200;
-   letter-spacing: -1px;
-   font-size: 60pt;
-   width: 500px;
-   height: auto;
-   padding: 10px;
-   border: 2px solid #4a7c56;
-   border-radius: 80px;
-   background-color: #c0e3b9;
-   margin: 30px auto 30px auto;
+   color: #3a543c;
   }
 
-  div.piantina
+  /*div.piantina
   {
-   border-radius: 50%;
-   background-color: #c0e3b9;
-   border: 2px solid #4a7c56;
-   width: 200px;
-   height: 200px;
-   margin: 20px auto 20px auto;
+   width: 480px;
+   height: auto;
+   position: relative;
+   margin: 10% auto;
+  }*/
+
+  .muxchi
+  {
+   font-size: 40.05pt;
+   color: #3a543c;
+   position: relative;
+   margin: 10% auto;
    text-align: center;
-   vertical-align: center;
-   padding: 1em;
-   padding-right: +1.5em;
-   padding-top: 1.5em;
+  }
+
+  .chi
+  {
+   font-weight: bold;
+  }
+
+  .ig
+  {
+   width: 100px;
+   height: auto;
+   position: absolute;
+   top: 40%;
+   left: 30%;
+  }
+
+  a:hover
+  {
+   /*box-shadow: 10px 10px 10px #c0e3b9;*/
+   background-color: #c0e3b9;
+   border-radius: 30%;
+  }
+
+  .seguimi
+  {
+   font-size: 21.41pt;
+   float: left;
+   position: relative;
+   left: 23.5%;
+   margin-top: 5%;
+   /*margin: 5% 0% 0% 24%;*/
   }
 
   .instagram
   {
-   margin: 30px auto 30px auto;
-   text-align: center;
-   font-size: 15pt;
-   color: #4a7c56;
+   font-weight: bold;
   }
-  
+
   .portfolio
   {
-   margin: 30px auto 30px auto;
+   width: 100px;
+   height: auto;
+   position: absolute;
+   top: 40%;
+   left: 65%;
+  }
+
+  .portf
+  {
+   font-size: 21.41pt;
+   text-align: right;
+   position: relative;
+   float: right;
+   right: 22%;
+   margin-top: 5%;
+   /*margin: 5% 22% 0% 0%;*/
+  }
+
+  .pf
+  {
+   font-weight: bold;
+  }
+
+  .wip
+  {
+   font-size: 20.80pt;
+   position: fixed;
+   z-index: 10;
+   bottom: 0px;
+   width: 100%;
    text-align: center;
-   font-size: 15pt;
-   font-weight: 600;
-   color: #4a7c56;
+  }
+
+  .work
+  {
+   font-weight: bold;
   }
  </style>
 </head>
 
 <body>
 
- <p>work in progress</p>
- <div class="piantina">
+ <!--<div class="piantina">
   <img src="img\piantina.png" alt="piantina">
+ </div>-->
+
+ <div class="muxchi">
+  mux<span class="chi">chi</span>
  </div>
- <div class="instagram">
-  <a class="instagram" href="https://www.instagram.com/_muxchi_/">Seguimi su Instagram!</a>
+
+ <div class="seguimisuig">
+  <a href="https://www.instagram.com/_muxchi_/" target="_blank" class="ig"><img src="img/ig.svg" alt="ig"></a>
  </div>
-  <div class="portfolio">
-  <a class="portfolio" href="https://drive.google.com/file/d/1mYiwrb7LF1Dd_sMTfIMH7YMySgeHBhlj/view?usp=sharing">Guarda il mio Portfolio!</a>
+ <p class="seguimi">seguimi su <span class="instagram">instagram</span> </p>
+
+
+ <div class="portfolio">
+  <a href="https://drive.google.com/file/d/1mYiwrb7LF1Dd_sMTfIMH7YMySgeHBhlj/view?usp=sharing" target="_blank"><img src="img/portfolio.svg" alt="portfolio"></a>
  </div>
+
+ <p class="portf">esplora il mio <span class="pf">portfolio</span> </p>
+
+ <p class="wip">questo sito è <span class="work">work in progress</span> </p>
+
+
 </body>
 
 </html>
