@@ -1,0 +1,101 @@
+body {
+ background-color: #ddeccb;
+ color: #3a543c;
+ width: 90%;
+ margin: 0 auto;
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+ text-align: center;
+}
+
+.header {
+ clear: both;
+ text-align: center;
+ overflow: auto;
+ margin: 1% auto;
+}
+
+.piantina {
+ height: 10%;
+ margin: 0 auto;
+}
+
+.muxchi {
+ clear: both;
+ text-align: center;
+ font-size: 2em;
+}
+
+.chi {
+ font-weight: 800;
+}
+
+.content {
+ margin-top: 5%;
+ overflow: auto;
+}
+
+.seguimisuig {
+ width: 50%;
+ float: left;
+ position: relative;
+}
+
+.ig {
+ width: 30%;
+ height: auto;
+ position: relative;
+ left: 35%;
+ clear: both;
+}
+
+.seguimi {
+ text-align: center;
+ font-size: 2em;
+ clear: both;
+ position: relative;
+}
+
+.instagram, .pf, .work {
+ font-weight: 800;
+}
+
+.portfolio {
+ width: 50%;
+ position: relative;
+ float: right;
+}
+
+.portficon {
+ width: 30%;
+ height: auto;
+ position: relative;
+ left: 35%;
+ clear: both;
+}
+
+.portf {
+ text-align: center;
+ font-size: 2em;
+ clear: both;
+ position: relative;
+}
+
+.footer {
+ position: fixed;
+ bottom: 0;
+ width: 90%;
+ clear: both;
+ text-align: center;
+ overflow: auto;
+ margin: 1% auto;
+}
+
+.wip {
+ font-size: 1em;
+}
+
+a:hover {
+ background-color: #c0e3b9;
+ border-radius: 50%;
+}
